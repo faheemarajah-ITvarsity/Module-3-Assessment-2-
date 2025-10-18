@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refresh Rate Soda | Drinks | The Code Kitchen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo-container">
+            <i class="fas fa-hat-chef fa-2x"></i>
+            <h1>The Code Kitchen</h1>
+        </div>
+        <p class="slogan">Finalizing Your Configuration</p>
+    </header>
+
+    <main class="container">
+        
+        <a href="drinks.html" style="text-decoration: none; color: #185ADB; display: block; margin-bottom: 20px;">
+            <i class="fas fa-arrow-left"></i> Back to Drinks
+        </a>
+
+        <div class="detail-content">
+            
+            <section class="item-visuals">
+                
+                <img src="images/drink1.jpg" alt="A cold Refresh Rate Soda." class="item-image">
+                
+                <div class="item-info">
+                    <h1>"Refresh Rate" Soda</h1>
+                    
+                    <div class="item-price-serving">
+                        <span class="price"><i class="fas fa-tag"></i> Price: R12.99</span>
+                        <span class="serving-size"><i class="fas fa-utensils"></i> Serving Size: 330ml Can</span>
+                    </div>
+
+                    <h3>The Algorithm:</h3>
+                    <p>Get a quick, bubbly update to your system. This perfectly chilled carbonated beverage is available in multiple flavor versions (variables), guaranteeing fast delivery and instant revitalization.</p>
+                </div>
+            </section>
+
+            <section class="item-order-form">
+                <form action="order-placed.html" method="GET">
+                    
+                    <div class="flavor-selection" style="margin-bottom: 30px;">
+                        <h2>Choose Your Flavor (Variable)</h2>
+                        
+                        <ul class="extras-list"> 
+                            <li>
+                                
+                                <input type="radio" id="flavor-cola" name="flavor" value="cola" required>
+                                <label for="flavor-cola">Cola</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="flavor-fanta" name="flavor" value="fanta">
+                                <label for="flavor-fanta">Fanta</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="flavor-sprite" name="flavor" value="sprite">
+                                <label for="flavor-sprite">Sprite</label>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <h2>Optimization Options</h2>
+                    <ul class="extras-list">
+                        <li>
+                            <input type="checkbox" id="extra-size" name="extra-size" value="size">
+                            <label for="extra-size">"Throughput" Size Upgrade (+R10.00)</label>
+                        </li>
+                    </ul>
+
+                    
+                    <div class="order-notes">
+                        <label for="notes">Special Requests/Notes (Max 255 Characters):</label>
+                        <textarea id="notes" name="notes" rows="4" maxlength="255" placeholder="e.g., 'Extra ice.', 'Must be sugar-free.'"></textarea>
+                    </div>
+
+                    
+                    <button type="submit" class="place-order-btn">
+                        <i class="fas fa-cart-shopping"></i> Place Order (Final Compile)
+                    </button>
+                </form>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 The Code Kitchen. All Rights Reserved. Debugged daily.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Bites | Starters | The Code Kitchen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo-container">
+            <i class="fas fa-hat-chef fa-2x"></i>
+            <h1>The Code Kitchen</h1>
+        </div>
+        <p class="slogan">Finalizing Your Configuration</p>
+    </header>
+
+    <main class="container">
+        
+        <a href="starters.html" style="text-decoration: none; color: #185ADB; display: block; margin-bottom: 20px;">
+            <i class="fas fa-arrow-left"></i> Back to Starters
+        </a>
+
+        <div class="detail-content">
+            
+            <section class="item-visuals">
+                
+                <img src="images/starter2.jpg" alt="8 mouthwatering mac and cheese balls" class="item-image">
+                
+                <div class="item-info">
+                    <h1>"Binary" Bites</h1>
+                    
+                    <div class="item-price-serving">
+                        
+                        <span class="price"><i class="fas fa-tag"></i> Price: R25.50</span>
+                        <span class="serving-size"><i class="fas fa-utensils"></i> Serving Size: 8 Pieces</span>
+                    </div>
+
+                    <h3>The Algorithm:</h3>
+                    <p>A collection of eight perfectly spiced mac-and-cheese balls. These bites live in two states: perfectly crisp (1) on the outside, and delightfully creamy (0) on the inside. They are served with a spicy 'Exception Handling' dip.</p>
+                </div>
+            </section>
+
+            <section class="item-order-form">
+                <form action="order-placed.html" method="GET">
+                    
+                    
+                    <h2>Customize Your Build</h2>
+                     <ul class="extras-list">
+                 <li>
+                 <input type="checkbox" id="extra-roll" name="extra-roll" value="roll">
+                 <label for="extra-roll">"Buffer" Roll (+R5.00)</label>
+            </li>
+                 <li>
+                 <input type="checkbox" id="extra-dip" name="extra-dip" value="dip">
+                 <label for="extra-dip">"Execution Handling" Dip Upgrade (+R7.50)</label>
+            </li>
+                 <li>
+                 <input type="checkbox" id="extra-protein" name="extra-protein" value="protein">
+                 <label for="extra-protein">"Middleware" Protein Upgrade (+R18.00)</label>
+            </li>
+        </ul>
+
+             <div class="order-notes">
+                        <label for="notes">Special Requests/Notes (Max 255 Characters):</label>
+                        <textarea id="notes" name="notes" rows="4" maxlength="255" placeholder="e.g., 'All condiments on the side.', 'Must be gluten-free bun.'"></textarea>
+                    </div>
+
+        
+                    <button type="submit" class="place-order-btn">
+                        <i class="fas fa-cart-shopping"></i> Place Order (Final Compile)
+                    </button>
+                </form>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 The Code Kitchen. All Rights Reserved. Debugged daily.</p>
+    </footer>
+
+</body>
+</html>
